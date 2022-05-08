@@ -22,17 +22,36 @@
             <p class="results">Computer Has Won: <span id="losses">0</span></p>
         </div>
         <div class="game-options">
-            <button class="options"> <img src="assets/images/rock_icon.jpeg" alt="choose rock">Rock</button>
-            <button class="options"> <img src="assets/images/paper_icon.jpeg" alt="choose paper">Paper</button>
-            <button class="options"> <img src="assets/images/scissors_icon.jpeg" alt="choose scissors">Scissors</button>
-            <button class="options"> <img src="assets/images/lizard_icon.jpeg" alt="choose lizard">Lizard</button>
-            <button class="options"> <img src="assets/images/spock_icon.jpeg" alt="choose spock">Spock</button>
-        </div>
-    </div>
+            <div class="wrapper">
+                <form id="options">
+                    <div class="options_selection">
+                        <label for = "Rock"><img src="assets/images/rock_icon.jpeg" alt="choose rock">
+                        <input type = "radio" id="Rock" name="options" value="Rock"> </label>
+                    </div>
+                    <div class="options_selection">
+                        <label for = "Paper"><img src="assets/images/paper_icon.jpeg" alt="choose scissors">
+                        <input type = "radio" id="Paper" name="options" value="Paper"> </label>
+                    </div>
+                    <div class="options_selection">
+                        <label for = "Scissors"><img src="assets/images/scissors_icon.jpeg" alt="choose scissors">
+                        <input type = "radio" id="Scissors" name="options" value="Scissors"> </label>
+                    </div>
+                    <div class="options_selection">
+                        <label for = "Lizard"><img src="assets/images/lizard_icon.jpeg" alt="choose lizard">
+                        <input type = "radio" id="Lizard" name="options" value="Lizard"> </label>
+                    </div>
+                    <div class="options_selection">
+                        <label for = "Spock"><img src="assets/images/spock_icon.jpeg" alt="choose spock">
+                        <input type = "radio" id="Spock" name="options" value="Spock"> </label>
+                    </div>
+                    </form>
+                    </div>
+                    </div>
+       
 
-        <p> Your Choice:<span id ="user-choice"></span></p>
-        <p> Computer Choice:<span id ="computer-choice"></span></p>
-        <p class="outcome1">Result:<span id ="outcome"></span></p>
+        <p> Your Choice: <span id ="user-choice"></span></p>
+        <p> Computer Choice: <span id = "computer-choice"></span></p>
+        <p> Result: <span id = "outcome"></span></p>
 
     <footer>
         copyright Joe Tune 2022
