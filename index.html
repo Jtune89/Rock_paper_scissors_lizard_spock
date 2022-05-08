@@ -17,19 +17,28 @@
             Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, (and as it always has) Rock crushes Scissors</h2>
             <h2>Make Your Choice...</h2>
         </div>
+        <div class = "results_area">
+            <p class="results">You Have Won: <span id="result">0</span></p>
+            <p class="results">Computer Has Won: <span id="losses">0</span></p>
+        </div>
         <div class="game-options">
-            <button class="options" data-selection="rock"><img src="assets/images/rock_icon.jpeg" alt="choose rock"></button>
-            <button class="options" data-selection="paper"><img src="assets/images/paper_icon.jpeg" alt="choose paper"></button>
-            <button class="options" data-selection="scissors"><img src="assets/images/scissors_icon.jpeg" alt="choose scissors"></button>
-            <button class="options" data-selection="lizard"><img src="assets/images/lizard_icon.jpeg" alt="choose lizard"></button>
-            <button class="options" data-selection="spock"><img src="assets/images/spock_icon.jpeg" alt="choose spock"></button>
+            <button class="options"> <img src="assets/images/rock_icon.jpeg" alt="choose rock">Rock</button>
+            <button class="options"> <img src="assets/images/paper_icon.jpeg" alt="choose paper">Paper</button>
+            <button class="options"> <img src="assets/images/scissors_icon.jpeg" alt="choose scissors">Scissors</button>
+            <button class="options"> <img src="assets/images/lizard_icon.jpeg" alt="choose lizard">Lizard</button>
+            <button class="options"> <img src="assets/images/spock_icon.jpeg" alt="choose spock">Spock</button>
         </div>
     </div>
 
-    <div class = "results_area">
-        <p class="results">You Have Won: <span id="result">0</span></p>
-        <p class="results">Computer Has Won: <span id="losses">0</span></p>
-    </div>
+        <p> Your Choice:<span id ="user-choice"></span></p>
+        <p> Computer Choice:<span id ="computer-choice"></span></p>
+        <p class="outcome1">Result:<span id ="outcome"></span></p>
+
+    <footer>
+        copyright Joe Tune 2022
+    </footer>
+
     <script src="assets/js/script.js"></script>
+
 </body>
 </html>

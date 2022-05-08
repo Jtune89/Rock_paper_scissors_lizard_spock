@@ -36,11 +36,26 @@ div{
     color: red;
 }
 
-.options {
-    transition: transform .2s;
+.options{
+    transition: transform (.2s);
 }
 
 .options:hover {
-    transform:scale(1.5);
+    transform: scale(1.2);
+    opacity: .7;
 }
-    
+
+
+   footer{
+       text-align: center;
+   }
+
+   .outcome {
+       font-size: 2em;
+
+   }
+
+   .game-options{
+       text-align: center;
+       display: inline-block;
+   }
