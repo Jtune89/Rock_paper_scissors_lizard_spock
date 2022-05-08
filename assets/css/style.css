@@ -1,3 +1,28 @@
 body {
     font-family: 'Tahoma', Segoe UI, Geneva, Verdana, sans-serif;
 }
+
+.logo {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+@media (max-width:1024px){
+    .game-options {
+        margin: 10px;
+
+    }
+    .game-area {
+        margin:10px;
+    }
+}
+
+div{
+    text-align: center;
+}
