@@ -2,9 +2,12 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('outcome')
 const possibleChoices = document.querySelectorAll('.options_selection')
+
+
 let userChoice
 let computerChoice
 let result
+
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id
@@ -103,3 +106,6 @@ function getResult(){
   resultDisplay.innerHTML = result
 }
 
+const setScore = (score) => {
+  console.log (score)
+}
