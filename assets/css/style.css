@@ -1,5 +1,6 @@
 body {
     font-family: 'Tahoma', Segoe UI, Geneva, Verdana, sans-serif;
+   
 }
 
 .logo {
@@ -15,14 +16,30 @@ body {
 
 @media (max-width:1024px){
     .game-options {
-        margin: 10px;
+        max-height:100%;
+        max-width: 100%;
 
-    }
-    .game-area {
-        margin:10px;
     }
 }
 
 div{
     text-align: center;
+}
+
+.rules {
+    background-color: orange;
+}
+
+.results {
+    display: inline-block;
+    padding: 25px;
+    font-size: 1.5em;
+}
+
+#result {
+    color: green;
+}
+
+#losses {
+    color: red;
 }
