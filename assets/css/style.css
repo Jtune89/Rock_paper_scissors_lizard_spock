@@ -74,3 +74,10 @@ div{
        display:none;
    }
 
+.wrapper img{
+    .logo-image img{
+        width: 200px;
+        height: 75px;
+        overflow: hidden;
+    }
+}
