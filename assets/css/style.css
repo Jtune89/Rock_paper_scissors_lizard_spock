@@ -81,3 +81,9 @@ div{
         overflow: hidden;
     }
 }
+
+iframe {
+    width: 50%;
+    height: 40vh;
+    top:0;
+}
