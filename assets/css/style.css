@@ -37,8 +37,8 @@ div{
 }
 
 .options_selection{
-    transition: transform (.2s);
-    display:inline-block
+    transition: transform .2s;
+    display:inline-block;
 }
 
 .options_selection:hover {
