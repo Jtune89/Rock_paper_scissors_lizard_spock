@@ -74,13 +74,13 @@ div{
        display:none;
    }
 
-.wrapper img{
-    .logo-image img{
-        width: 200px;
-        height: 75px;
+.wrapper img
+    {
+        width: 225px;
+        height: 190px;
         overflow: hidden;
-    }
 }
+
 
 iframe {
     width: 50%;
