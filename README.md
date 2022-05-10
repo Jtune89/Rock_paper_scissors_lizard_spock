@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 Rock paper scissors lizard spock game
 
 This game has been designed for users to play against the computer in a game of rock paper scissors lizard spock.  The game was given notority after being played by Dr Sheldon Cooper on the TV show Big Bang Theory and is an extension of the game Rock Paper Scissors with additional options.
@@ -8,25 +6,34 @@ As the game was given fame by the Big Bang Theory, I included a video of the cha
 
 The game will give a selection for the computer and determine an outcome of a winner or a loser based on each selection.
 
-Am I responsive shows that the site is responsive to different device sizes through utilising adaptive responsive code
+Am I responsive shows that the site is responsive to different device sizes through utilising adaptive responsive code:
+
+![PastedGraphic-4](https://user-images.githubusercontent.com/95533259/167632301-3b84e2ee-d50e-4d3e-adf8-59391d24b692.png)
+
 
 Testing:
 
-I have tested the site across different browsers and it works successfully on Chrome & Safari I have confirmed that the site is responsive on different screen sizes using dev tools, and functions successfully I have confirmed that the usability of the site is friendly to users and is readable I have tested on lighthouse and achieved high scores across all metrics:
-
-![PastedGraphic-1](https://user-images.githubusercontent.com/95533259/167618732-b4edee86-a2c8-495a-a20e-e609093da22b.jpeg)
+I have tested the site across different browsers and it works successfully on Chrome & Safari I have confirmed that the site is responsive on different screen sizes using dev tools, and functions successfully I have confirmed that the usability of the site is friendly to users and is readable I have tested on lighthouse and achieved high scores across most metrics except best practices which is strange because I ran it once and the score was excellent and ran it again and the score was not.  
 
 
 
-Bugs: Solved bugs: on the W3C validator it showed Alt tags missing for the logo which I have now resolved when I deployed the code, I realised I had not put my main HTML file name as index.html so the deployed code was showing the readme file which needed to be amended and also required code changes.
 
-Unsolved Bugs: This W3C validator saying the footer tag should not be there - but it should so I have left it where it is Lighthouse gave a score of 83 on SEO because a meta description is missing so I added it into the code, ran it again and it said the same thing On the form I have no back end to submit the information to, I was going to steal the code institute one from the coffee house project however when you submit it, it shows code insitute and I thought it wouldn't look great so did not put an "action" into the form.
 
-Validator testing: HTML - bug mentioned above CSS - no issues identified Lighthouse scores: 82 performance 100 accessibility 92 best practice 83 SEO
+Bugs: Solved bugs: on the W3C validator for CSS, there were unclosed functions as well as missing end of functions (;) which I have corrected.
+bug found on the html in the W3C validator for not closed functions, which I have corrected
+The logo was not centreing on the screen within dev tools/am i responsive, which I updated with new CSS to correct.
+The video was not loading on the screen which I googled and found to change the "watch" within the url to "embed" which worked.
+JS corrections on the outcomes of the game which were incorrect.
+
+Unsolved Bugs: Performance on the lighthouse scores.  I was not sure what it actually wanted me to do
+
+Validator testing: HTML - bug found and corrected, now no issues
+CSS bug found and corrected, now no issues
+Lighthouse scores - best practices is not as high as it could be - not sure why.
 
 Deployment:
 
-The walkthrough video on the sample project for deployment is out of date and I had to spend some time trying to find the section to load the branch to main. I had to do this activity a few times as mentioned with the index.html name change.
+Normal deployment following testing, no issues identified during deployment using the same process as used previously.
 
 Credits: Javascript was explained and outlined in a You Tube video called "3 ways to code a rock, paper, scissors game" which I expanded to include Lizard & Spock.  Images for options was taken from icon library/google images.  Video is from Big Bank Theory (YouTube)
 >>>>>>> 5e9d684655693309a490e53d2365d895245c6234
