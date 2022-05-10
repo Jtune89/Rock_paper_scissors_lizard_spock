@@ -8,7 +8,7 @@ The game will give a selection for the computer and determine an outcome of a wi
 
 Am I responsive shows that the site is responsive to different device sizes through utilising adaptive responsive code:
 
-![PastedGraphic-4](https://user-images.githubusercontent.com/95533259/167632301-3b84e2ee-d50e-4d3e-adf8-59391d24b692.png)
+![C464A3F5-D6E4-4594-B030-27966C52F87B_1_105_c](https://user-images.githubusercontent.com/95533259/167686364-29612877-4477-4e06-8273-a8e0e51e7b15.jpeg)
 
 
 Testing:
@@ -16,6 +16,7 @@ Testing:
 I have tested the site across different browsers and it works successfully on Chrome & Safari I have confirmed that the site is responsive on different screen sizes using dev tools, and functions successfully I have confirmed that the usability of the site is friendly to users and is readable I have tested on lighthouse and achieved high scores across most metrics except best practices which is strange because I ran it once and the score was excellent and ran it again and the score was not.  
 
 
+![30114A26-144C-4DA8-B925-676725D60EC9_1_105_c](https://user-images.githubusercontent.com/95533259/167686416-4bf87465-9f29-48d7-8dfe-3a0c9348ed87.jpeg)
 
 
 
